@@ -3,9 +3,11 @@
 #
 # This module is a Raspberrypy Pico program causes micro Servo to to turn back and forth from 180 degress to 0 degrees
 
+
 import board
 import pwmio
 from adafruit_motor import servo
+
 
 # variables
 blink_delay = 0.05
