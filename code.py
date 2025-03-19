@@ -1,9 +1,8 @@
 # Created by: Michael Bruneau
 # Created on: March 2025
 #
-# This module is a Raspberrypy Pico program that sends power to RGB LED to create a color then pauses for one second and switches to the next colour and then loops after all colors have been produced
+# This module is a Raspberrypy Pico program that turns a servo 180 degres and then to 0 degrees
 
-import time
 import board
 import pwmio
 from adafruit_motor import servo
