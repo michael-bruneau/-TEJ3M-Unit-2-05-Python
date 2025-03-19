@@ -10,7 +10,7 @@ from adafruit_motor import servo
 # variables
 blink_delay = 0.05
 
-# create a PWMOut object on Pin A2.
+# create a PWMOut object on Pin GP12.
 pwm = pwmio.PWMOut(board.GP12 , duty_cycle=2 ** 15, frequency=50)
 
 # Create a servo object, my_servo.
